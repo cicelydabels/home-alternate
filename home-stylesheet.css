@@ -1,0 +1,106 @@
+body {
+    background-color:darkslategray;
+    width: 3000px;
+    margin-bottom: 100px;
+    cursor: url("beetle.svg"), auto;
+}
+
+/*.Smoke-BG {
+    position: absolute;
+    mix-blend-mode: screen;
+    margin-top: -350px;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-bottom: -50px;
+    transform: rotate(90deg);
+    z-index: -1;
+    opacity: 100%;
+}*/
+
+/*#slate {
+    position: absolute;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    margin-left: -50px;
+    margin-right: -50px;
+    mix-blend-mode: overlay;
+    opacity: 30%;
+}*/
+
+h1 {
+    color:rgb(0, 0, 0);
+    font-family: "Italianno";
+    font-size: 200pt;
+    line-height: 75%;
+    margin-left: 300px;
+    margin-top: 100;
+    z-index: -1;
+    mix-blend-mode: screen;
+    opacity: 80%
+}
+
+h3 {
+    color: whitesmoke;
+    font-family: "IM Fell Double Pica";
+    font-size: 36px;
+    font-style: oblique;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+p {
+    color:whitesmoke;
+    font-family: "IM Fell Double Pica";
+    font-size: 18px;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+.welcome {
+    position: absolute;
+    margin-left: 50px;
+}
+
+.The-Raven {
+    position: absolute;
+    margin-top: 690px;
+    margin-left: 475px;
+    transform: rotate(30deg);
+    mix-blend-mode: overlay;
+}
+
+.The-Black-Cat {
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 1000px;
+    mix-blend-mode: overlay;
+}
+
+.The-Tell-Tale-Heart {
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 1500px;
+    mix-blend-mode: overlay;
+}
+
+.Lenore {
+    position: absolute;
+    transform: rotate(75deg);
+    margin-top: 450px;
+    margin-left: 250px;
+    mix-blend-mode: overlay;
+    z-index: -1;
+}
+
+a:hover {
+    cursor: url("flame.svg"), auto;
+}
+
+#smoke {
+    position: fixed;
+    margin-top: -150px;
+    margin-left: -10px;
+    mix-blend-mode: screen;
+    z-index: -1;
+    width: 1280px;
+}
